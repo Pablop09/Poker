@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="shortcut icon" type="image/x-icon" href="images/poker.ico"/> 
+    <link rel="shortcut icon" type="image/x-icon" href="Content/images/poker.ico"/> 
     <title>Poker Game</title>
 </head>
 <body>
