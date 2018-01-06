@@ -11,7 +11,16 @@ namespace Codifico.SemiSenior
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Image1.ImageUrl = "~/Content/cards/10_of_clubs.png";
+            Card1.ImageUrl = "~/Content/cards/upside_down_card.png";
+            Card2.ImageUrl = "~/Content/cards/upside_down_card.png";
+            Card3.ImageUrl = "~/Content/cards/upside_down_card.png";
+            Card4.ImageUrl = "~/Content/cards/upside_down_card.png";
+            Card5.ImageUrl = "~/Content/cards/upside_down_card.png";
+        }
+
+        protected void DealCards_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

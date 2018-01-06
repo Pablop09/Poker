@@ -1,2 +1,50 @@
-﻿body {
+﻿*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background : url("../images/fondo.jpg");
+    background-repeat : round;
+}
+
+#container {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header{
+    height: 150px;
+    border-style:ridge;
+}
+
+#image_title{
+    margin-left: 40px;
+}
+
+#title {
+    color:white;
+    margin: 100px;
+    font-size: 70px;
+    text-align: center;
+    line-height: 150px;
+}
+
+#cards {
+    width: 960px;
+    text-align: center;
+}
+
+#dealcards{
+    margin: auto;
+    font-size: 10px;
+    width: 800px;
+    text-align: center;
+}
+
+.boton{
+    font-size:900px;
+    width:200px;
 }

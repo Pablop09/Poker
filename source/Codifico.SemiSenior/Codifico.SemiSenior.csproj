@@ -134,6 +134,8 @@
     <Content Include="Content\cards\queen_of_spades.png" />
     <Content Include="Content\cards\queen_of_spades2.png" />
     <Content Include="Content\cards\red_joker.png" />
+    <Content Include="Content\cards\upside_down_card.png" />
+    <Content Include="Content\images\fondo.jpg" />
     <Content Include="Content\images\poker.ico" />
     <Content Include="Content\styles\style.css" />
     <Content Include="packages.config" />
