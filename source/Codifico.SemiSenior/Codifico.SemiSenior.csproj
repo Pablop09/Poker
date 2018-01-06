@@ -137,6 +137,7 @@
     <Content Include="Content\cards\upside_down_card.png" />
     <Content Include="Content\images\fondo.jpg" />
     <Content Include="Content\images\poker.ico" />
+    <Content Include="Content\images\poker_title.png" />
     <Content Include="Content\styles\style.css" />
     <Content Include="packages.config" />
     <Content Include="Content\cards\desktop.ini" />
@@ -152,6 +153,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game Logic\Card.cs" />
+    <Compile Include="Game Logic\Deck.cs" />
     <Compile Include="Poker.aspx.cs">
       <DependentUpon>Poker.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

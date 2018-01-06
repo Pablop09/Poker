@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Codifico.SemiSenior.Game_Logic;
 
 namespace Codifico.SemiSenior
 {
@@ -20,7 +21,10 @@ namespace Codifico.SemiSenior
 
         protected void DealCards_Click(object sender, EventArgs e)
         {
-
+            Deck mydeck = new Deck();
+            mydeck.SetDeck();
+            Card[] pablodeck = new Card[52];
+            pablodeck = mydeck.getDeck;
         }
     }
 }
