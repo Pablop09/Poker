@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Codifico.SemiSenior.Game_Logic;
+using System.Web.Services;
 
 namespace Codifico.SemiSenior
 {
@@ -17,14 +18,21 @@ namespace Codifico.SemiSenior
             Card3.ImageUrl = "~/Content/cards/upside_down_card.png";
             Card4.ImageUrl = "~/Content/cards/upside_down_card.png";
             Card5.ImageUrl = "~/Content/cards/upside_down_card.png";
+            //this.InitGame();
         }
 
-        protected void DealCards_Click(object sender, EventArgs e)
+        [WebMethod]
+        public static void InitGame()
         {
+            DealCards initgame = new DealCards();
+            initgame.Deal();
+
+            //This is only used for testing my app.
             Deck mydeck = new Deck();
             mydeck.SetDeck();
             Card[] pablodeck = new Card[52];
             pablodeck = mydeck.getDeck;
+            //Card5.ImageUrl = "~/Content/cards/10_of_clubs.png";
         }
     }
 }

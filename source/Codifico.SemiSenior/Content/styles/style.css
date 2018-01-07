@@ -37,14 +37,8 @@ header{
     text-align: center;
 }
 
-#dealcards{
+#dealsection{
     margin: auto;
-    font-size: 10px;
     width: 800px;
     text-align: center;
-}
-
-.boton{
-    font-size:900px;
-    width:200px;
 }

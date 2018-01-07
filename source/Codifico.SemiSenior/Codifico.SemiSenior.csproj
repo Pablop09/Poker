@@ -138,6 +138,7 @@
     <Content Include="Content\images\fondo.jpg" />
     <Content Include="Content\images\poker.ico" />
     <Content Include="Content\images\poker_title.png" />
+    <Content Include="Content\scripts\jquery-1.10.2.js" />
     <Content Include="Content\styles\style.css" />
     <Content Include="packages.config" />
     <Content Include="Content\cards\desktop.ini" />
@@ -154,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game Logic\Card.cs" />
+    <Compile Include="Game Logic\DealCards.cs" />
     <Compile Include="Game Logic\Deck.cs" />
     <Compile Include="Poker.aspx.cs">
       <DependentUpon>Poker.aspx</DependentUpon>
