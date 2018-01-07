@@ -26,7 +26,7 @@ namespace Codifico.SemiSenior.Game_Logic
             this.SetDeck(); //Create the deck and shuffle it
             this.getHand(); //Get player's hand
             this.sortCards(); // Sort player's hand
-            this.displayCards(); 
+            this.evaluateHand(); //Method used to evaluate hand
         }
 
         //Get player's hand
@@ -55,11 +55,7 @@ namespace Codifico.SemiSenior.Game_Logic
             }
         }
 
-        public void displayCards()
-        {
-
-        }
-
+        //Method used to evaluate hand
         public void evaluateHand()
         {
 
